@@ -1,9 +1,9 @@
-name: File operations
+name: File operations in github
 
 on: push
 
 jobs:
-    name: Files
+    files:
         runs-on: ubuntu-latest
         steps:
             - name: create a one file
