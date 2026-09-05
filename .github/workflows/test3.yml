@@ -1,0 +1,15 @@
+name: File operations in github
+
+on: workflow_dispatch
+
+jobs:
+    files:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Create a file with echo
+              run: echo "How are you mahesh basani..!" > mahesh.txt
+            - name: Display of the file content
+              run: cat mahesh.txt
+            - name: display the date
+              run: date
+          
