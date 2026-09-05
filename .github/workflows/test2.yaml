@@ -4,19 +4,15 @@ on: push
 
 jobs:
     name: Files
-    runs-on: ubuntu-latest
-    steps:
-        - name: create a one file
-          run: echo "hello..!" > hello.txt
-
-        - name: display the content of a file
-          run: cat hello.txt
-
-        - name: display date
-          run: date
-        
-        - name: display files and directories
-          run: ls -lrth
-
-        - name: display the current loaction
-          run: pwd
+        runs-on: ubuntu-latest
+        steps:
+            - name: create a one file
+              run: echo"hello..!"> hello.txt
+            - name: display the content of a file
+              run: cat hello.txt
+            - name: display date
+              run: date
+            - name: display files and directories
+              run: ls -lrth
+            - name: display the current loaction
+              run: pwd
