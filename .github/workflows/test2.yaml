@@ -7,7 +7,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: create a one file
-              run: echo"hello..!"> hello.txt
+              run: echo "hello..Mahesh..!" >hello.txt
             - name: display the content of a file
               run: cat hello.txt
             - name: display date
