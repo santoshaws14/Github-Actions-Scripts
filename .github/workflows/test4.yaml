@@ -10,7 +10,7 @@ jobs:
               uses: actions/checkout@v5
 
             - name: display the content of the file.
-              run: ls -rth
+              run: ls -lrth
 
             - name: print the current working directory
               run: pwd
