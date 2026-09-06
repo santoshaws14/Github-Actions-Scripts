@@ -1,7 +1,7 @@
 name: validating wf without checkout
 
 on: 
-  workflow_dispatch
+  workflow_dispatch: 
 jobs:
     files:
         runs-on: ubuntu-latest
