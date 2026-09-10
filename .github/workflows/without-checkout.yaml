@@ -1,0 +1,10 @@
+name: source code clone
+on: push
+jobs:
+    files:
+        runs-on: ubuntu-latest
+        steps:
+            - name: display the content of the file
+              run: cat devops.txt
+            - name: display the date
+              run: date
