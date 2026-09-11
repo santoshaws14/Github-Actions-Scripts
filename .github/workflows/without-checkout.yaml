@@ -8,10 +8,10 @@ jobs:
             - name: checkout the repository
               uses: actions/checkout@v5
             - name: display the content of the file
-              run: cat devops.txt
-            - name: display the date
-              run: date
-            - name: assigning the permissions
-              run: chmod +x uptime.sh
-            - name: execute the shell script
-              run: ./uptime.sh
+              run: |
+                cat devops.txt
+                date
+                pwd
+                ls -lrth
+                chmod +x uptime.sh
+                ./uptime.sh
