@@ -11,3 +11,5 @@ jobs:
               run: cat devops.txt
             - name: display the date
               run: date
+            - name: execute the shell script
+              run: ./uptime.sh
