@@ -1,0 +1,17 @@
+name: parallell jobs demo
+on:
+  workflow_dispatch:
+
+jobs:
+  jobs1:
+    runs-on: ubuntu-latest
+    steps:
+       - name: Job1 step
+         run: echo "Job 1 running"
+
+  jobs2:
+    runs-on: ubuntu-latest
+    steps:
+       - name: Job2 step
+         run: echo "Job 2 running"
+    
