@@ -11,5 +11,7 @@ jobs:
               run: cat devops.txt
             - name: display the date
               run: date
+            - name: assigning the permissions
+              run: chmod +x uptime.sh
             - name: execute the shell script
               run: ./uptime.sh
